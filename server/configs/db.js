@@ -17,8 +17,6 @@ import mongoose from "mongoose";
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect(`${process.env.MONGODB_URI}/hotel-booking`, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
       serverSelectionTimeoutMS: 10000, // ⏳ wait 10s max before timeout
     });
 
