@@ -1,6 +1,6 @@
 import React, { useState, useMemo} from 'react'
 import { assets, facilityIcons, roomsDummyData } from '../assets/assets'
-import { useNavigate, useSearchParams } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
 import StarRating from '../components/StarRating'
 import { useAppContext } from '../context/AppContext'
 
